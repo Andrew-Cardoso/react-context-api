@@ -1,0 +1,85 @@
+.main-content {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.dark {
+  background: #202;
+  color: powderblue;
+}
+
+.darker {
+  background: #000;
+  color: #282;
+}
+
+
+p {
+  text-transform: capitalize;
+}
+
+.form {
+  width: 100%;
+  max-width: 300px;
+  height: 120px;
+  display: grid;
+  gap: 4px;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+button {
+  font-size: 16px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.dark input {
+  background: #404;
+  color: aqua;
+}
+
+.dark button {
+  background: #626;
+  color: aqua;
+}
+.dark .selected {
+  background: #336;
+}
+
+.darker input {
+  background: #151515;
+  color: #AFA;
+}
+
+.darker button {
+  background: #222;
+  color: #AFA;
+}
+
+.darker .selected {
+  background: #222;
+}
+
+
+li {
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.edit-user {
+  display: grid;
+  width: 100%;
+  max-width: 300px;
+  height: 120px;
+  gap: 10px;
+}
